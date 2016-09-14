@@ -23,4 +23,12 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:onClick="clickHandle"/>
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video"
+        android:layout_below="@+id/testBtn"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
